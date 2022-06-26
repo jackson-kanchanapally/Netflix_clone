@@ -2,9 +2,9 @@ import styled from "styled-components";
 
 export const Container=styled.div`
 display:flex;
-padding-left:50px;
-padding:70px,56px;
+padding:65px 20%;;
 margin:auto;
+
 flex-direction:column;
 @media (max-width:1000px){
     padding:70px 30px;
