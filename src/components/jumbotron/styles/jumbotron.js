@@ -14,7 +14,7 @@ width:100%;
 export const Item=styled.div`
 display:flex;
 border-bottom:8px solid #222;
-padding:10px 5%;
+padding:50px 5%;
 color:white;
 overflow:hidden;
 `;
@@ -42,12 +42,16 @@ margin-bottom:8px;
     font-size:35px;
 }
 `;
-export const SubTitle=styled.h2`
-font-size:26px;
+export const SubTitle=styled.p`
+font-size:25.5px;
 font-weigth:normal;
 line-height:normal;
 `;
+
 export const Image=styled.img `
-max-width:100%;
+width:50%;
 height:auto;
+@media (max-width:1000px) {
+    width:80%; 
+}
 `;
