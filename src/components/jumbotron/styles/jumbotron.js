@@ -39,13 +39,17 @@ line-height:1.1;
 margin-bottom:8px;
 @media (max-width:600px)
 {
-    font-size:35px;
+    font-size:30px;
 }
 `;
 export const SubTitle=styled.p`
 font-size:25.5px;
 font-weigth:normal;
 line-height:normal;
+@media(max-width:600px)
+{
+    font-size:17px;
+}
 `;
 
 export const Image=styled.img `
