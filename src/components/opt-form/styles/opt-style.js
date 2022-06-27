@@ -53,7 +53,7 @@ img{
     margin-bottom:-25px;
 width:38vw;
 height:40px;
-font-size:18px;
+font-size:15px;
 line-height:4px;
 img{
     padding-left:10px;
