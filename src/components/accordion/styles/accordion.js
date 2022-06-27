@@ -4,7 +4,10 @@ export const Container=styled.div`
 display:flex;
 border-bottom:8px solid #222;
 flex-direction:column;
-padding:50px 20%;
+padding:50px 10%;
+@media(max-width:600px){
+padding:50px 5px;
+}
 `;
 export const Item=styled.div`
 color:white;
@@ -37,7 +40,7 @@ img {
 }
 @media (max-width:600px)
 {
-    margin-left:-80px;
+    margin-left:-5px;
     width:85vw;
 }
 `;
@@ -56,7 +59,7 @@ width:80%;
 margin-left:50px;
 @media (max-width:600px)
 {
-    margin-left:-80px;
+    margin-left:-5px;
     width:85vw;
 }
 `;

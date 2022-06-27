@@ -5,10 +5,16 @@ display:flex;
 justify-content:center;
 height:100%;
 margin-top:20px;
+margin-bottom:120px;
 flex-wrap:wrap;
 padding-bottom:50px;
+align-items:center;
 @media (max-width:1000px){
-    flex-direction:column;
+    flex-direction:row;
+    align-items:center;
+    margin: 15% auto;
+    width:100vw;
+    padding-bottom:30px;
     align-items:center;
 }
 `;
@@ -21,9 +27,8 @@ height:65px;
 box-sizing:border-box;
 @media(max-width:600px)
 {
-    margin-left:-59px;
 width:90vw;
-height:50px;
+height:40px;
 }
 `;
 export const Button=styled.button`
@@ -35,6 +40,7 @@ color:white;
 padding:6px 32px;
 font-size:30px;
 border:0;
+cursor:pointer;
 img{
     padding-left:8px;
     width:25px;
@@ -42,13 +48,13 @@ img{
 }
 @media(max-width:600px)
 {
-    padding:0px 15px;
-    margin-left:-59px;
+    padding:0px 18px;
     margin-top:15px;
     margin-bottom:-25px;
-width:40vw;
-height:50px;
-font-size:20px;
+width:38vw;
+height:40px;
+font-size:18px;
+line-height:4px;
 img{
     padding-left:10px;
     width:15px;
@@ -61,6 +67,12 @@ color:white;
 font-size:20px;
 text-align:center;
 @media(max-width:600px){
-    margin-left:-80px;
+ 
+    font-size:19px;
 }
+`;
+export const Break=styled.p`
+flex-basis:100%;
+height:0;
+margin-bottom:0px;
 `;
