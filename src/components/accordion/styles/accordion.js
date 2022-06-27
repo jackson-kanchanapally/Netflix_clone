@@ -42,6 +42,7 @@ img {
 {
     margin-left:-5px;
     width:85vw;
+    font-size:23px;
 }
 `;
 export const Body=styled.div`

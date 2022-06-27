@@ -42,18 +42,18 @@ font-size:30px;
 border:0;
 cursor:pointer;
 img{
-    padding-left:8px;
-    width:25px;
+    padding-left:9px;
+    width:24px;
     filter:brightness(0) invert(1);
 }
 @media(max-width:600px)
 {
-    padding:0px 18px;
+    padding:0px 22px;
     margin-top:15px;
     margin-bottom:-25px;
 width:38vw;
 height:40px;
-font-size:18px;
+font-size:15px;
 line-height:4px;
 img{
     padding-left:10px;
