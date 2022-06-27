@@ -4,7 +4,7 @@ export const Container=styled.div`
 display:flex;
 justify-content:center;
 height:100%;
-margin-top:20px;
+margin-top:5px;
 margin-bottom:120px;
 flex-wrap:wrap;
 padding-bottom:50px;
@@ -68,7 +68,7 @@ font-size:20px;
 text-align:center;
 @media(max-width:600px){
  
-    font-size:19px;
+    font-size:18px;
 }
 `;
 export const Break=styled.p`

@@ -27,8 +27,8 @@ font-size:26px;
 font-weight:normal;
 background:#303030;
 padding : 0.8em 1.2em;
-width:80%;
-margin-left:50px;
+width:70%;
+margin:auto;
 img {
     filter:brightness(0) invert(1);
     width:24px;
@@ -40,9 +40,10 @@ img {
 }
 @media (max-width:600px)
 {
-    margin-left:-5px;
-    width:85vw;
+ 
+    width:84vw;
     font-size:23px;
+    margin:auto;
 }
 `;
 export const Body=styled.div`
@@ -50,18 +51,19 @@ display:flex;
 justify-content:space-between;
 align-items:center;
 cursor:pointer;
-margin-top:-1px;
-
 font-size:26px;
 font-weight:normal;
 background:#303030;
 padding : 0.8em 1.2em;
-width:80%;
-margin-left:50px;
+width:70%;
+margin:auto;
+margin-top:-1px;
 @media (max-width:600px)
 {
-    margin-left:-5px;
-    width:85vw;
+    
+    width:84vw;
+    font-size:23px;
+    margin:auto;
 }
 `;
 export const Frame=styled.div`
