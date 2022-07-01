@@ -18,7 +18,7 @@ export default function SignUp() {
   const handleSignUp = (e) => {
     e.preventDefault();
     createUserWithEmailAndPassword(auth, email, password, name)
-      .then((result) => {
+      .then(() => {
        updateProfile(auth.currentUser,{
         displayName:name,
         photoURL:Math.floor(Math.random()*5)+1,
