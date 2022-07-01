@@ -18,7 +18,7 @@ export default function SignUp() {
   const handleSignUp = (e) => {
     e.preventDefault();
     createUserWithEmailAndPassword(auth, email, password, name)
-      .then((result) => {
+      .then(() => {
        updateProfile(auth.currentUser,{
         displayName:name,
         photoURL:Math.floor(Math.random()*5)+1,
@@ -67,6 +67,9 @@ export default function SignUp() {
                 Already have an account ?{" "}
                 <Form.Link to={ROUTES.SIGN_IN}>Sign In</Form.Link>
               </Form.Text>
+              <Form.TextSmall>
+            This page is protected by Google reCAPTCHA to ensure you're not a bot. Learn more.
+          </Form.TextSmall>
             </Form.Base>
           </form>
         </Form>
