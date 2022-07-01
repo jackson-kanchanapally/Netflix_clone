@@ -4,7 +4,7 @@ import * as ROUTES from './constants/routes'
 import Home from './pages/home';
 import Browse from './pages/browse';
 import SignIn from './pages/sign-in';
-import SignUp from './pages/sigh-up';
+import SignUp from './pages/signup';
 function App() {
   return (
     <Router>
@@ -13,6 +13,7 @@ function App() {
 <Route exact path='/user'element={<p>hello</p>}></Route>
       
 <Route exact path={ROUTES.SIGN_IN} element={<SignIn/>}></Route>
+<Route exact path={ROUTES.SIGN_UP} element={<SignUp/>}></Route>
       </Routes>
    </Router>
   );
