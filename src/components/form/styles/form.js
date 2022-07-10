@@ -26,9 +26,9 @@ max-width:450px;
 width:100%;
 `;
 export const Error=styled.div`
-background:#e87c03;
+background:#e85f09;
 border-radius:4px;
-font-size:14px;
+font-size:16px;
 margin:0 0 16px;
 color:white;
 padding:15px 20px;

@@ -35,7 +35,7 @@ export default function SignIn() {
     .then(()=>{
       navigate(ROUTES.BROWSE);
     }).catch((err)=>{
-      setError(err.message)
+      setError(err.message.slice(9))
       setEmailAddress('');
       setPassword('');
     })
