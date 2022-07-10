@@ -8,6 +8,7 @@ padding-top:10px;
 flex-direction:column;
 border-bottom:8px solid #222;
 background:url(${({src})=>(src?'../images/misc/${src}.jpg': '../images/misc/home-bg.jpg')}) top left /cover no-repeat;
+
 @media (max-width:600px)
 {
     height:50%;

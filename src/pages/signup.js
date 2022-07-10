@@ -28,7 +28,7 @@ export default function SignUp() {
        })
       })
       .catch((err) => {
-        setErr(err.message)
+        setErr(err.message.slice(9))
         setEmail('')
         setPassword('')
         setName('')
