@@ -1,1 +1,1 @@
-<h1>Netflix Clone</h1>
+<h1 align='center'>Netflix Clone</h1>
