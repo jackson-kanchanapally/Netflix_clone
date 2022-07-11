@@ -17,9 +17,11 @@ function App() {
         <Route exact path="/user" element={<p>hello</p>}></Route>
 
         <Route exact path={ROUTES.SIGN_IN} element={<SignIn />}></Route>
-        {/* <Route exact path={ROUTES.SIGN_IN} element={<IsUserRedirect path={ROUTES.SIGN_IN} loggedInPath={ROUTES.BROWSE}><SignIn /></IsUserRedirect>}></Route> */}
+      
         <Route exact path={ROUTES.SIGN_UP} element={<SignUp />}></Route>
+       
         <Route exact path={ROUTES.BROWSE} element={<Browse/>}></Route>
+        
         {/* <Route exact path="*" element={<Err/>}></Route> */}
       </Routes>
     </Router>
