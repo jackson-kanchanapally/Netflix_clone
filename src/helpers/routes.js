@@ -1,8 +1,9 @@
 import React from "react";
-import {Route,Navigate} from 'react-router-dom'
+import {Route,Navigate,Routes} from 'react-router-dom'
 export function IsUserRedirect({user,loggedInPath,children,...rest})
 {
     return (
+      
         <Route
           {...rest}
           render={() => {
@@ -23,5 +24,6 @@ export function IsUserRedirect({user,loggedInPath,children,...rest})
             return null;
           }}
         />
+      
       );
 }
