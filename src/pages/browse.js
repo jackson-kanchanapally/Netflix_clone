@@ -1,13 +1,11 @@
-import { connectFirestoreEmulator } from "firebase/firestore";
 import React from "react";
+import { BrowseContainer } from "../container/browse";
 import {useContent} from '../hooks'
+import selectionMap from "../utils/selection-filter";
 export default function Browse(){
     const {series}=useContent('series')
     const {films}=useContent('films')
-    console.log(series)
-    console.log(films)
-    return(
-    <div>
-        <h1>hello browse</h1>
-    </div>)
+    const slides =selectionMap({series,films})
+    return<BrowseContainer sildes={slides}/>
+    
 }
